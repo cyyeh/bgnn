@@ -13,7 +13,7 @@ This code contains implementation of the following models for graphs:
 ## Installation
 To run the models you have to download the repo, install the requirements, and extract the datasets.
 
-First, let's create a python environment:
+First, let's create a python environment:(You can skip this step in Colab environment)
 ```bash
 mkdir envs
 cd envs
@@ -156,3 +156,14 @@ year={2021},
 url={https://openreview.net/forum?id=ebS5NUfoMKL}
 }
 ```
+
+## References
+
+- [Graph Neural Networks 1: GNN Model](https://web.stanford.edu/class/cs224w/slides/06-GNN1.pdf)
+- [Graph Neural Networks 2: Design Space](https://web.stanford.edu/class/cs224w/slides/07-GNN2.pdf)
+- [Applications of Graph Neural Networks](https://web.stanford.edu/class/cs224w/slides/08-GNN-application.pdf)
+- [Theory of Graph Neural Networks](https://web.stanford.edu/class/cs224w/slides/09-theory.pdf)
+- [GNNs for Recommender Systems](https://web.stanford.edu/class/cs224w/slides/13-recsys.pdf)
+- [Advanced Topics on GNNs](https://web.stanford.edu/class/cs224w/slides/16-advanced.pdf)
+- [Scaling Up GNNs](https://web.stanford.edu/class/cs224w/slides/17-scalable.pdf)
+- [Design Space of Graph Neural Networks](https://web.stanford.edu/class/cs224w/slides/20-conclusion.pdf)
