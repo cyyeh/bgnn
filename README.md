@@ -40,6 +40,8 @@ For example for cuda version 9.2, install it as follows:
 pip install torch==1.7.1+cu92 torchvision==0.8.2+cu92 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+For colab environment, `torch`, `torchvision` and `torchaudio` are already installed.
+
 If you don't have GPU, use the following: 
 ```bash
 pip install torch==1.7.1+cpu torchvision==0.8.2+cpu torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
@@ -50,6 +52,12 @@ For example, cuda==9.2:
 
 ```bash
 pip install dgl-cu92
+```
+
+For example, cuda==11.3:
+
+```
+pip install dgl-cu113 dglgo -f https://data.dgl.ai/wheels/repo.html
 ```
 
 For cpu version of DGL: 

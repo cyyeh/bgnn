@@ -1,4 +1,4 @@
-datasets/
-*pycache*
-results/
-*egg*
+.ipynb_checkpoints
+catboost_info/
+__pycache__
+datasets
