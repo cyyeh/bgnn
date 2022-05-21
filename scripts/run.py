@@ -1,6 +1,6 @@
 # from catboost import CatboostError
-# import sys
-# sys.path.append('../')
+import sys
+sys.path.append('../')
 
 from bgnn.models.GBDT import GBDTCatBoost, GBDTLGBM
 from bgnn.models.MLP import MLP
